@@ -1,0 +1,545 @@
+06/26/2023 09:32:14 - INFO - data_loader - Loading features from cached file ./data/BIOES/cached_train_ltn_news_bert-base-chinese_200
+06/26/2023 09:32:20 - INFO - data_loader - Loading features from cached file ./data/BIOES/cached_dev_ltn_news_bert-base-chinese_200
+06/26/2023 09:32:22 - INFO - data_loader - Loading features from cached file ./data/BIOES/cached_test_ltn_news_bert-base-chinese_200
+06/26/2023 09:32:30 - INFO - trainer - ***** Running training *****
+06/26/2023 09:32:30 - INFO - trainer -    Num train examples = 42388
+06/26/2023 09:32:30 - INFO - trainer -    Num epochs = 50
+06/26/2023 09:32:30 - INFO - trainer -    Total train batch size = 32
+06/26/2023 09:32:30 - INFO - trainer -    Gradient Accumulation steps = 1
+06/26/2023 09:32:30 - INFO - trainer -    Total optimization steps = 66250
+06/26/2023 09:58:52 - INFO - trainer - *** Training Result ***
+06/26/2023 09:58:52 - INFO - trainer -    Step = 1325
+06/26/2023 09:58:52 - INFO - trainer -    Loss = 26092
+06/26/2023 09:58:52 - INFO - trainer -    Num eval examples = 16953
+06/26/2023 09:58:52 - INFO - trainer -    Batch size = 32
+06/26/2023 10:03:38 - INFO - trainer - *****   Eval results  *****
+06/26/2023 10:03:38 - INFO - trainer -    loss = 15.821569489533047
+06/26/2023 10:03:38 - INFO - trainer -    slot_f1 = 0.7736764802257491
+06/26/2023 10:03:38 - INFO - trainer -    slot_precision = 0.7581254438585092
+06/26/2023 10:03:38 - INFO - trainer -    slot_recall = 0.7898788580064704
+06/26/2023 10:03:38 - INFO - trainer - Saving model checkpoint to bert_crf_label_ltn_news
+06/26/2023 10:29:53 - INFO - trainer - *** Training Result ***
+06/26/2023 10:29:53 - INFO - trainer -    Step = 1325
+06/26/2023 10:29:53 - INFO - trainer -    Loss = 43649
+06/26/2023 10:29:53 - INFO - trainer -    Num eval examples = 16953
+06/26/2023 10:29:53 - INFO - trainer -    Batch size = 32
+06/26/2023 10:34:36 - INFO - trainer - *****   Eval results  *****
+06/26/2023 10:34:36 - INFO - trainer -    loss = 14.476238616007679
+06/26/2023 10:34:36 - INFO - trainer -    slot_f1 = 0.7998148612423581
+06/26/2023 10:34:36 - INFO - trainer -    slot_precision = 0.78413903678606
+06/26/2023 10:34:36 - INFO - trainer -    slot_recall = 0.8161302256751757
+06/26/2023 10:34:40 - INFO - trainer - Saving model checkpoint to bert_crf_label_ltn_news
+06/26/2023 11:00:51 - INFO - trainer - *** Training Result ***
+06/26/2023 11:00:51 - INFO - trainer -    Step = 1325
+06/26/2023 11:00:51 - INFO - trainer -    Loss = 57067
+06/26/2023 11:00:51 - INFO - trainer -    Num eval examples = 16953
+06/26/2023 11:00:51 - INFO - trainer -    Batch size = 32
+06/26/2023 11:05:34 - INFO - trainer - *****   Eval results  *****
+06/26/2023 11:05:34 - INFO - trainer -    loss = 14.397267537746789
+06/26/2023 11:05:34 - INFO - trainer -    slot_f1 = 0.8146984479459498
+06/26/2023 11:05:34 - INFO - trainer -    slot_precision = 0.8150064988774666
+06/26/2023 11:05:34 - INFO - trainer -    slot_recall = 0.8143906297966799
+06/26/2023 11:05:37 - INFO - trainer - Saving model checkpoint to bert_crf_label_ltn_news
+06/26/2023 11:31:46 - INFO - trainer - *** Training Result ***
+06/26/2023 11:31:46 - INFO - trainer -    Step = 1325
+06/26/2023 11:31:46 - INFO - trainer -    Loss = 67334
+06/26/2023 11:31:46 - INFO - trainer -    Num eval examples = 16953
+06/26/2023 11:31:46 - INFO - trainer -    Batch size = 32
+06/26/2023 11:36:28 - INFO - trainer - *****   Eval results  *****
+06/26/2023 11:36:28 - INFO - trainer -    loss = 14.857701001077329
+06/26/2023 11:36:28 - INFO - trainer -    slot_f1 = 0.8182768485915493
+06/26/2023 11:36:28 - INFO - trainer -    slot_precision = 0.8170502970421353
+06/26/2023 11:36:28 - INFO - trainer -    slot_recall = 0.8195070882628442
+06/26/2023 11:36:32 - INFO - trainer - Saving model checkpoint to bert_crf_label_ltn_news
+06/26/2023 12:02:40 - INFO - trainer - *** Training Result ***
+06/26/2023 12:02:40 - INFO - trainer -    Step = 1325
+06/26/2023 12:02:40 - INFO - trainer -    Loss = 75192
+06/26/2023 12:02:40 - INFO - trainer -    Num eval examples = 16953
+06/26/2023 12:02:40 - INFO - trainer -    Batch size = 32
+06/26/2023 12:07:22 - INFO - trainer - *****   Eval results  *****
+06/26/2023 12:07:22 - INFO - trainer -    loss = 16.030396687309697
+06/26/2023 12:07:22 - INFO - trainer -    slot_f1 = 0.8213237235744575
+06/26/2023 12:07:22 - INFO - trainer -    slot_precision = 0.8105154244108067
+06/26/2023 12:07:22 - INFO - trainer -    slot_recall = 0.8324241780212688
+06/26/2023 12:07:26 - INFO - trainer - Saving model checkpoint to bert_crf_label_ltn_news
+06/26/2023 12:33:40 - INFO - trainer - *** Training Result ***
+06/26/2023 12:33:40 - INFO - trainer -    Step = 1325
+06/26/2023 12:33:40 - INFO - trainer -    Loss = 81411
+06/26/2023 12:33:40 - INFO - trainer -    Num eval examples = 16953
+06/26/2023 12:33:40 - INFO - trainer -    Batch size = 32
+06/26/2023 12:38:24 - INFO - trainer - *****   Eval results  *****
+06/26/2023 12:38:24 - INFO - trainer -    loss = 17.320056179334532
+06/26/2023 12:38:24 - INFO - trainer -    slot_f1 = 0.8203694489855554
+06/26/2023 12:38:24 - INFO - trainer -    slot_precision = 0.8230996584813116
+06/26/2023 12:38:24 - INFO - trainer -    slot_recall = 0.8176572917404618
+06/26/2023 13:04:38 - INFO - trainer - *** Training Result ***
+06/26/2023 13:04:38 - INFO - trainer -    Step = 1325
+06/26/2023 13:04:38 - INFO - trainer -    Loss = 86387
+06/26/2023 13:04:38 - INFO - trainer -    Num eval examples = 16953
+06/26/2023 13:04:38 - INFO - trainer -    Batch size = 32
+06/26/2023 13:09:22 - INFO - trainer - *****   Eval results  *****
+06/26/2023 13:09:22 - INFO - trainer -    loss = 19.128889904382095
+06/26/2023 13:09:22 - INFO - trainer -    slot_f1 = 0.8220365891424247
+06/26/2023 13:09:22 - INFO - trainer -    slot_precision = 0.8187596632880948
+06/26/2023 13:09:22 - INFO - trainer -    slot_recall = 0.8253398509142718
+06/26/2023 13:09:26 - INFO - trainer - Saving model checkpoint to bert_crf_label_ltn_news
+06/26/2023 13:35:41 - INFO - trainer - *** Training Result ***
+06/26/2023 13:35:41 - INFO - trainer -    Step = 1325
+06/26/2023 13:35:41 - INFO - trainer -    Loss = 90488
+06/26/2023 13:35:41 - INFO - trainer -    Num eval examples = 16953
+06/26/2023 13:35:41 - INFO - trainer -    Batch size = 32
+06/26/2023 13:40:24 - INFO - trainer - *****   Eval results  *****
+06/26/2023 13:40:24 - INFO - trainer -    loss = 20.0727839676839
+06/26/2023 13:40:24 - INFO - trainer -    slot_f1 = 0.823245160859436
+06/26/2023 13:40:24 - INFO - trainer -    slot_precision = 0.8217697532510314
+06/26/2023 13:40:24 - INFO - trainer -    slot_recall = 0.824725875898332
+06/26/2023 13:40:28 - INFO - trainer - Saving model checkpoint to bert_crf_label_ltn_news
+06/26/2023 14:06:41 - INFO - trainer - *** Training Result ***
+06/26/2023 14:06:41 - INFO - trainer -    Step = 1325
+06/26/2023 14:06:41 - INFO - trainer -    Loss = 93938
+06/26/2023 14:06:41 - INFO - trainer -    Num eval examples = 16953
+06/26/2023 14:06:41 - INFO - trainer -    Batch size = 32
+06/26/2023 14:11:23 - INFO - trainer - *****   Eval results  *****
+06/26/2023 14:11:23 - INFO - trainer -    loss = 21.39424945813305
+06/26/2023 14:11:23 - INFO - trainer -    slot_f1 = 0.8236077022144453
+06/26/2023 14:11:23 - INFO - trainer -    slot_precision = 0.8191920135806506
+06/26/2023 14:11:23 - INFO - trainer -    slot_recall = 0.8280712525877473
+06/26/2023 14:11:27 - INFO - trainer - Saving model checkpoint to bert_crf_label_ltn_news
+06/26/2023 14:37:41 - INFO - trainer - *** Training Result ***
+06/26/2023 14:37:41 - INFO - trainer -    Step = 1325
+06/26/2023 14:37:41 - INFO - trainer -    Loss = 96840
+06/26/2023 14:37:41 - INFO - trainer -    Num eval examples = 16953
+06/26/2023 14:37:41 - INFO - trainer -    Batch size = 32
+06/26/2023 14:42:24 - INFO - trainer - *****   Eval results  *****
+06/26/2023 14:42:24 - INFO - trainer -    loss = 20.66688550643201
+06/26/2023 14:42:24 - INFO - trainer -    slot_f1 = 0.824257977693364
+06/26/2023 14:42:24 - INFO - trainer -    slot_precision = 0.8193314563922288
+06/26/2023 14:42:24 - INFO - trainer -    slot_recall = 0.8292441022976834
+06/26/2023 14:42:28 - INFO - trainer - Saving model checkpoint to bert_crf_label_ltn_news
+06/26/2023 15:08:41 - INFO - trainer - *** Training Result ***
+06/26/2023 15:08:41 - INFO - trainer -    Step = 1325
+06/26/2023 15:08:41 - INFO - trainer -    Loss = 99315
+06/26/2023 15:08:41 - INFO - trainer -    Num eval examples = 16953
+06/26/2023 15:08:41 - INFO - trainer -    Batch size = 32
+06/26/2023 15:13:24 - INFO - trainer - *****   Eval results  *****
+06/26/2023 15:13:24 - INFO - trainer -    loss = 21.484638873586114
+06/26/2023 15:13:24 - INFO - trainer -    slot_f1 = 0.8224857625633643
+06/26/2023 15:13:24 - INFO - trainer -    slot_precision = 0.8174276762320891
+06/26/2023 15:13:24 - INFO - trainer -    slot_recall = 0.8276068355885108
+06/26/2023 15:39:36 - INFO - trainer - *** Training Result ***
+06/26/2023 15:39:36 - INFO - trainer -    Step = 1325
+06/26/2023 15:39:36 - INFO - trainer -    Loss = 101450
+06/26/2023 15:39:36 - INFO - trainer -    Num eval examples = 16953
+06/26/2023 15:39:36 - INFO - trainer -    Batch size = 32
+06/26/2023 15:44:19 - INFO - trainer - *****   Eval results  *****
+06/26/2023 15:44:19 - INFO - trainer -    loss = 21.805937223614386
+06/26/2023 15:44:19 - INFO - trainer -    slot_f1 = 0.8263764142321389
+06/26/2023 15:44:19 - INFO - trainer -    slot_precision = 0.8271388803457222
+06/26/2023 15:44:19 - INFO - trainer -    slot_recall = 0.8256153525239883
+06/26/2023 15:44:22 - INFO - trainer - Saving model checkpoint to bert_crf_label_ltn_news
+06/26/2023 16:10:36 - INFO - trainer - *** Training Result ***
+06/26/2023 16:10:36 - INFO - trainer -    Step = 1325
+06/26/2023 16:10:36 - INFO - trainer -    Loss = 103316
+06/26/2023 16:10:36 - INFO - trainer -    Num eval examples = 16953
+06/26/2023 16:10:36 - INFO - trainer -    Batch size = 32
+06/26/2023 16:15:19 - INFO - trainer - *****   Eval results  *****
+06/26/2023 16:15:19 - INFO - trainer -    loss = 23.092703041940364
+06/26/2023 16:15:19 - INFO - trainer -    slot_f1 = 0.8268179327580701
+06/26/2023 16:15:19 - INFO - trainer -    slot_precision = 0.8281269740998105
+06/26/2023 16:15:19 - INFO - trainer -    slot_recall = 0.825513023354665
+06/26/2023 16:15:22 - INFO - trainer - Saving model checkpoint to bert_crf_label_ltn_news
+06/26/2023 16:41:38 - INFO - trainer - *** Training Result ***
+06/26/2023 16:41:38 - INFO - trainer -    Step = 1325
+06/26/2023 16:41:38 - INFO - trainer -    Loss = 104956
+06/26/2023 16:41:38 - INFO - trainer -    Num eval examples = 16953
+06/26/2023 16:41:38 - INFO - trainer -    Batch size = 32
+06/26/2023 16:46:21 - INFO - trainer - *****   Eval results  *****
+06/26/2023 16:46:21 - INFO - trainer -    loss = 22.6373896337905
+06/26/2023 16:46:21 - INFO - trainer -    slot_f1 = 0.8238805737813374
+06/26/2023 16:46:21 - INFO - trainer -    slot_precision = 0.814748962831259
+06/26/2023 16:46:21 - INFO - trainer -    slot_recall = 0.8332191969521651
+06/26/2023 17:12:36 - INFO - trainer - *** Training Result ***
+06/26/2023 17:12:36 - INFO - trainer -    Step = 1325
+06/26/2023 17:12:36 - INFO - trainer -    Loss = 106429
+06/26/2023 17:12:36 - INFO - trainer -    Num eval examples = 16953
+06/26/2023 17:12:36 - INFO - trainer -    Batch size = 32
+06/26/2023 17:17:19 - INFO - trainer - *****   Eval results  *****
+06/26/2023 17:17:19 - INFO - trainer -    loss = 22.482967103202387
+06/26/2023 17:17:19 - INFO - trainer -    slot_f1 = 0.8275281250979286
+06/26/2023 17:17:19 - INFO - trainer -    slot_precision = 0.8236372000904505
+06/26/2023 17:17:19 - INFO - trainer -    slot_recall = 0.8314559866499791
+06/26/2023 17:17:22 - INFO - trainer - Saving model checkpoint to bert_crf_label_ltn_news
+06/26/2023 17:43:40 - INFO - trainer - *** Training Result ***
+06/26/2023 17:43:40 - INFO - trainer -    Step = 1325
+06/26/2023 17:43:40 - INFO - trainer -    Loss = 107733
+06/26/2023 17:43:40 - INFO - trainer -    Num eval examples = 16953
+06/26/2023 17:43:40 - INFO - trainer -    Batch size = 32
+06/26/2023 17:48:25 - INFO - trainer - *****   Eval results  *****
+06/26/2023 17:48:25 - INFO - trainer -    loss = 23.54934258640937
+06/26/2023 17:48:25 - INFO - trainer -    slot_f1 = 0.8266455542403838
+06/26/2023 17:48:25 - INFO - trainer -    slot_precision = 0.8232254236891203
+06/26/2023 17:48:25 - INFO - trainer -    slot_recall = 0.830094221550523
+06/26/2023 18:14:41 - INFO - trainer - *** Training Result ***
+06/26/2023 18:14:41 - INFO - trainer -    Step = 1325
+06/26/2023 18:14:41 - INFO - trainer -    Loss = 108899
+06/26/2023 18:14:41 - INFO - trainer -    Num eval examples = 16953
+06/26/2023 18:14:41 - INFO - trainer -    Batch size = 32
+06/26/2023 18:19:23 - INFO - trainer - *****   Eval results  *****
+06/26/2023 18:19:23 - INFO - trainer -    loss = 24.435599336984023
+06/26/2023 18:19:23 - INFO - trainer -    slot_f1 = 0.8279581693607815
+06/26/2023 18:19:23 - INFO - trainer -    slot_precision = 0.8245903047242803
+06/26/2023 18:19:23 - INFO - trainer -    slot_recall = 0.8313536574806558
+06/26/2023 18:19:27 - INFO - trainer - Saving model checkpoint to bert_crf_label_ltn_news
+06/26/2023 18:45:45 - INFO - trainer - *** Training Result ***
+06/26/2023 18:45:45 - INFO - trainer -    Step = 1325
+06/26/2023 18:45:45 - INFO - trainer -    Loss = 109970
+06/26/2023 18:45:45 - INFO - trainer -    Num eval examples = 16953
+06/26/2023 18:45:45 - INFO - trainer -    Batch size = 32
+06/26/2023 18:50:28 - INFO - trainer - *****   Eval results  *****
+06/26/2023 18:50:28 - INFO - trainer -    loss = 24.38622628967717
+06/26/2023 18:50:28 - INFO - trainer -    slot_f1 = 0.8276573544525249
+06/26/2023 18:50:28 - INFO - trainer -    slot_precision = 0.8249005027640293
+06/26/2023 18:50:28 - INFO - trainer -    slot_recall = 0.8304326949567462
+06/26/2023 19:16:46 - INFO - trainer - *** Training Result ***
+06/26/2023 19:16:46 - INFO - trainer -    Step = 1325
+06/26/2023 19:16:46 - INFO - trainer -    Loss = 110924
+06/26/2023 19:16:46 - INFO - trainer -    Num eval examples = 16953
+06/26/2023 19:16:46 - INFO - trainer -    Batch size = 32
+06/26/2023 19:21:29 - INFO - trainer - *****   Eval results  *****
+06/26/2023 19:21:29 - INFO - trainer -    loss = 25.786552885343443
+06/26/2023 19:21:29 - INFO - trainer -    slot_f1 = 0.8306314445644701
+06/26/2023 19:21:29 - INFO - trainer -    slot_precision = 0.8290259852274687
+06/26/2023 19:21:29 - INFO - trainer -    slot_recall = 0.8322431341063121
+06/26/2023 19:21:33 - INFO - trainer - Saving model checkpoint to bert_crf_label_ltn_news
+06/26/2023 19:47:50 - INFO - trainer - *** Training Result ***
+06/26/2023 19:47:50 - INFO - trainer -    Step = 1325
+06/26/2023 19:47:50 - INFO - trainer -    Loss = 111786
+06/26/2023 19:47:50 - INFO - trainer -    Num eval examples = 16953
+06/26/2023 19:47:50 - INFO - trainer -    Batch size = 32
+06/26/2023 19:52:34 - INFO - trainer - *****   Eval results  *****
+06/26/2023 19:52:34 - INFO - trainer -    loss = 24.48702685877962
+06/26/2023 19:52:34 - INFO - trainer -    slot_f1 = 0.8284762534788956
+06/26/2023 19:52:34 - INFO - trainer -    slot_precision = 0.8240025539601956
+06/26/2023 19:52:34 - INFO - trainer -    slot_recall = 0.8329987956643918
+06/26/2023 20:18:51 - INFO - trainer - *** Training Result ***
+06/26/2023 20:18:51 - INFO - trainer -    Step = 1325
+06/26/2023 20:18:51 - INFO - trainer -    Loss = 112576
+06/26/2023 20:18:51 - INFO - trainer -    Num eval examples = 16953
+06/26/2023 20:18:51 - INFO - trainer -    Batch size = 32
+06/26/2023 20:23:34 - INFO - trainer - *****   Eval results  *****
+06/26/2023 20:23:34 - INFO - trainer -    loss = 25.49843759806651
+06/26/2023 20:23:34 - INFO - trainer -    slot_f1 = 0.830278146319252
+06/26/2023 20:23:34 - INFO - trainer -    slot_precision = 0.8280808349710689
+06/26/2023 20:23:34 - INFO - trainer -    slot_recall = 0.8324871498177754
+06/26/2023 20:49:50 - INFO - trainer - *** Training Result ***
+06/26/2023 20:49:50 - INFO - trainer -    Step = 1325
+06/26/2023 20:49:50 - INFO - trainer -    Loss = 113328
+06/26/2023 20:49:50 - INFO - trainer -    Num eval examples = 16953
+06/26/2023 20:49:50 - INFO - trainer -    Batch size = 32
+06/26/2023 20:54:33 - INFO - trainer - *****   Eval results  *****
+06/26/2023 20:54:33 - INFO - trainer -    loss = 25.558251775885527
+06/26/2023 20:54:33 - INFO - trainer -    slot_f1 = 0.8298096255340538
+06/26/2023 20:54:33 - INFO - trainer -    slot_precision = 0.827943423578733
+06/26/2023 20:54:33 - INFO - trainer -    slot_recall = 0.8316842594123157
+06/26/2023 21:20:49 - INFO - trainer - *** Training Result ***
+06/26/2023 21:20:49 - INFO - trainer -    Step = 1325
+06/26/2023 21:20:49 - INFO - trainer -    Loss = 113988
+06/26/2023 21:20:49 - INFO - trainer -    Num eval examples = 16953
+06/26/2023 21:20:49 - INFO - trainer -    Batch size = 32
+06/26/2023 21:25:31 - INFO - trainer - *****   Eval results  *****
+06/26/2023 21:25:31 - INFO - trainer -    loss = 25.904076681496964
+06/26/2023 21:25:31 - INFO - trainer -    slot_f1 = 0.830090903032845
+06/26/2023 21:25:31 - INFO - trainer -    slot_precision = 0.8267690097293583
+06/26/2023 21:25:31 - INFO - trainer -    slot_recall = 0.8334395982399383
+06/26/2023 21:51:46 - INFO - trainer - *** Training Result ***
+06/26/2023 21:51:46 - INFO - trainer -    Step = 1325
+06/26/2023 21:51:46 - INFO - trainer -    Loss = 114608
+06/26/2023 21:51:46 - INFO - trainer -    Num eval examples = 16953
+06/26/2023 21:51:46 - INFO - trainer -    Batch size = 32
+06/26/2023 21:56:29 - INFO - trainer - *****   Eval results  *****
+06/26/2023 21:56:29 - INFO - trainer -    loss = 27.687125688228967
+06/26/2023 21:56:29 - INFO - trainer -    slot_f1 = 0.830697414900765
+06/26/2023 21:56:29 - INFO - trainer -    slot_precision = 0.829345028872709
+06/26/2023 21:56:29 - INFO - trainer -    slot_recall = 0.8320542187167922
+06/26/2023 21:56:33 - INFO - trainer - Saving model checkpoint to bert_crf_label_ltn_news
+06/26/2023 22:22:46 - INFO - trainer - *** Training Result ***
+06/26/2023 22:22:46 - INFO - trainer -    Step = 1325
+06/26/2023 22:22:46 - INFO - trainer -    Loss = 115158
+06/26/2023 22:22:46 - INFO - trainer -    Num eval examples = 16953
+06/26/2023 22:22:46 - INFO - trainer -    Batch size = 32
+06/26/2023 22:27:28 - INFO - trainer - *****   Eval results  *****
+06/26/2023 22:27:28 - INFO - trainer -    loss = 28.142264477711805
+06/26/2023 22:27:28 - INFO - trainer -    slot_f1 = 0.8307840435858095
+06/26/2023 22:27:28 - INFO - trainer -    slot_precision = 0.8262115137596824
+06/26/2023 22:27:28 - INFO - trainer -    slot_recall = 0.8354074668807707
+06/26/2023 22:27:32 - INFO - trainer - Saving model checkpoint to bert_crf_label_ltn_news
+06/26/2023 22:53:45 - INFO - trainer - *** Training Result ***
+06/26/2023 22:53:45 - INFO - trainer -    Step = 1325
+06/26/2023 22:53:45 - INFO - trainer -    Loss = 115669
+06/26/2023 22:53:45 - INFO - trainer -    Num eval examples = 16953
+06/26/2023 22:53:45 - INFO - trainer -    Batch size = 32
+06/26/2023 22:58:26 - INFO - trainer - *****   Eval results  *****
+06/26/2023 22:58:26 - INFO - trainer -    loss = 29.075655649293143
+06/26/2023 22:58:26 - INFO - trainer -    slot_f1 = 0.8320250930573515
+06/26/2023 22:58:26 - INFO - trainer -    slot_precision = 0.8309440065320478
+06/26/2023 22:58:26 - INFO - trainer -    slot_recall = 0.8331089963082784
+06/26/2023 22:58:30 - INFO - trainer - Saving model checkpoint to bert_crf_label_ltn_news
+06/26/2023 23:24:41 - INFO - trainer - *** Training Result ***
+06/26/2023 23:24:41 - INFO - trainer -    Step = 1325
+06/26/2023 23:24:41 - INFO - trainer -    Loss = 116153
+06/26/2023 23:24:41 - INFO - trainer -    Num eval examples = 16953
+06/26/2023 23:24:41 - INFO - trainer -    Batch size = 32
+06/26/2023 23:29:24 - INFO - trainer - *****   Eval results  *****
+06/26/2023 23:29:24 - INFO - trainer -    loss = 27.508931043013085
+06/26/2023 23:29:24 - INFO - trainer -    slot_f1 = 0.8310724501391011
+06/26/2023 23:29:24 - INFO - trainer -    slot_precision = 0.8274153656500401
+06/26/2023 23:29:24 - INFO - trainer -    slot_recall = 0.8347620059665777
+06/26/2023 23:55:36 - INFO - trainer - *** Training Result ***
+06/26/2023 23:55:36 - INFO - trainer -    Step = 1325
+06/26/2023 23:55:36 - INFO - trainer -    Loss = 116605
+06/26/2023 23:55:36 - INFO - trainer -    Num eval examples = 16953
+06/26/2023 23:55:36 - INFO - trainer -    Batch size = 32
+06/27/2023 00:00:17 - INFO - trainer - *****   Eval results  *****
+06/27/2023 00:00:17 - INFO - trainer -    loss = 28.521179569892162
+06/27/2023 00:00:17 - INFO - trainer -    slot_f1 = 0.8312859271045386
+06/27/2023 00:00:17 - INFO - trainer -    slot_precision = 0.8237685595257418
+06/27/2023 00:00:17 - INFO - trainer -    slot_recall = 0.8389417589597059
+06/27/2023 00:26:28 - INFO - trainer - *** Training Result ***
+06/27/2023 00:26:28 - INFO - trainer -    Step = 1325
+06/27/2023 00:26:28 - INFO - trainer -    Loss = 117006
+06/27/2023 00:26:28 - INFO - trainer -    Num eval examples = 16953
+06/27/2023 00:26:28 - INFO - trainer -    Batch size = 32
+06/27/2023 00:31:09 - INFO - trainer - *****   Eval results  *****
+06/27/2023 00:31:09 - INFO - trainer -    loss = 29.489030153346512
+06/27/2023 00:31:09 - INFO - trainer -    slot_f1 = 0.8307467792301536
+06/27/2023 00:31:09 - INFO - trainer -    slot_precision = 0.8280635347665934
+06/27/2023 00:31:09 - INFO - trainer -    slot_recall = 0.8334474697145016
+06/27/2023 00:57:23 - INFO - trainer - *** Training Result ***
+06/27/2023 00:57:23 - INFO - trainer -    Step = 1325
+06/27/2023 00:57:23 - INFO - trainer -    Loss = 117410
+06/27/2023 00:57:23 - INFO - trainer -    Num eval examples = 16953
+06/27/2023 00:57:23 - INFO - trainer -    Batch size = 32
+06/27/2023 01:02:05 - INFO - trainer - *****   Eval results  *****
+06/27/2023 01:02:05 - INFO - trainer -    loss = 30.051103581122632
+06/27/2023 01:02:05 - INFO - trainer -    slot_f1 = 0.8308986675536598
+06/27/2023 01:02:05 - INFO - trainer -    slot_precision = 0.8261688352113553
+06/27/2023 01:02:05 - INFO - trainer -    slot_recall = 0.8356829684904873
+06/27/2023 01:28:21 - INFO - trainer - *** Training Result ***
+06/27/2023 01:28:21 - INFO - trainer -    Step = 1325
+06/27/2023 01:28:21 - INFO - trainer -    Loss = 117769
+06/27/2023 01:28:21 - INFO - trainer -    Num eval examples = 16953
+06/27/2023 01:28:21 - INFO - trainer -    Batch size = 32
+06/27/2023 01:33:04 - INFO - trainer - *****   Eval results  *****
+06/27/2023 01:33:04 - INFO - trainer -    loss = 30.135231671243343
+06/27/2023 01:33:04 - INFO - trainer -    slot_f1 = 0.8315648154309221
+06/27/2023 01:33:04 - INFO - trainer -    slot_precision = 0.827016800834592
+06/27/2023 01:33:04 - INFO - trainer -    slot_recall = 0.8361631284388504
+06/27/2023 01:59:22 - INFO - trainer - *** Training Result ***
+06/27/2023 01:59:22 - INFO - trainer -    Step = 1325
+06/27/2023 01:59:22 - INFO - trainer -    Loss = 118114
+06/27/2023 01:59:22 - INFO - trainer -    Num eval examples = 16953
+06/27/2023 01:59:22 - INFO - trainer -    Batch size = 32
+06/27/2023 02:04:06 - INFO - trainer - *****   Eval results  *****
+06/27/2023 02:04:06 - INFO - trainer -    loss = 31.13564996899299
+06/27/2023 02:04:06 - INFO - trainer -    slot_f1 = 0.8323955976741542
+06/27/2023 02:04:06 - INFO - trainer -    slot_precision = 0.8292580035310845
+06/27/2023 02:04:06 - INFO - trainer -    slot_recall = 0.8355570248974741
+06/27/2023 02:04:10 - INFO - trainer - Saving model checkpoint to bert_crf_label_ltn_news
+06/27/2023 02:30:29 - INFO - trainer - *** Training Result ***
+06/27/2023 02:30:29 - INFO - trainer -    Step = 1325
+06/27/2023 02:30:29 - INFO - trainer -    Loss = 118431
+06/27/2023 02:30:29 - INFO - trainer -    Num eval examples = 16953
+06/27/2023 02:30:29 - INFO - trainer -    Batch size = 32
+06/27/2023 02:35:12 - INFO - trainer - *****   Eval results  *****
+06/27/2023 02:35:12 - INFO - trainer -    loss = 33.097111140557054
+06/27/2023 02:35:12 - INFO - trainer -    slot_f1 = 0.8325570627543153
+06/27/2023 02:35:12 - INFO - trainer -    slot_precision = 0.830052421563258
+06/27/2023 02:35:12 - INFO - trainer -    slot_recall = 0.8350768649491109
+06/27/2023 02:35:16 - INFO - trainer - Saving model checkpoint to bert_crf_label_ltn_news
+06/27/2023 03:01:34 - INFO - trainer - *** Training Result ***
+06/27/2023 03:01:34 - INFO - trainer -    Step = 1325
+06/27/2023 03:01:34 - INFO - trainer -    Loss = 118714
+06/27/2023 03:01:34 - INFO - trainer -    Num eval examples = 16953
+06/27/2023 03:01:34 - INFO - trainer -    Batch size = 32
+06/27/2023 03:06:17 - INFO - trainer - *****   Eval results  *****
+06/27/2023 03:06:17 - INFO - trainer -    loss = 33.43446776372082
+06/27/2023 03:06:17 - INFO - trainer -    slot_f1 = 0.83182523875986
+06/27/2023 03:06:17 - INFO - trainer -    slot_precision = 0.8286220875284119
+06/27/2023 03:06:17 - INFO - trainer -    slot_recall = 0.8350532505254209
+06/27/2023 03:32:33 - INFO - trainer - *** Training Result ***
+06/27/2023 03:32:33 - INFO - trainer -    Step = 1325
+06/27/2023 03:32:33 - INFO - trainer -    Loss = 118984
+06/27/2023 03:32:33 - INFO - trainer -    Num eval examples = 16953
+06/27/2023 03:32:33 - INFO - trainer -    Batch size = 32
+06/27/2023 03:37:16 - INFO - trainer - *****   Eval results  *****
+06/27/2023 03:37:16 - INFO - trainer -    loss = 34.001140585485494
+06/27/2023 03:37:16 - INFO - trainer -    slot_f1 = 0.833354246725747
+06/27/2023 03:37:16 - INFO - trainer -    slot_precision = 0.8303002836402847
+06/27/2023 03:37:16 - INFO - trainer -    slot_recall = 0.8364307585740036
+06/27/2023 03:37:20 - INFO - trainer - Saving model checkpoint to bert_crf_label_ltn_news
+06/27/2023 04:03:33 - INFO - trainer - *** Training Result ***
+06/27/2023 04:03:33 - INFO - trainer -    Step = 1325
+06/27/2023 04:03:33 - INFO - trainer -    Loss = 119231
+06/27/2023 04:03:33 - INFO - trainer -    Num eval examples = 16953
+06/27/2023 04:03:33 - INFO - trainer -    Batch size = 32
+06/27/2023 04:08:15 - INFO - trainer - *****   Eval results  *****
+06/27/2023 04:08:15 - INFO - trainer -    loss = 34.70158046416517
+06/27/2023 04:08:15 - INFO - trainer -    slot_f1 = 0.8330481429997847
+06/27/2023 04:08:15 - INFO - trainer -    slot_precision = 0.8288194228012217
+06/27/2023 04:08:15 - INFO - trainer -    slot_recall = 0.8373202351996599
+06/27/2023 04:34:28 - INFO - trainer - *** Training Result ***
+06/27/2023 04:34:28 - INFO - trainer -    Step = 1325
+06/27/2023 04:34:28 - INFO - trainer -    Loss = 119469
+06/27/2023 04:34:28 - INFO - trainer -    Num eval examples = 16953
+06/27/2023 04:34:28 - INFO - trainer -    Batch size = 32
+06/27/2023 04:39:09 - INFO - trainer - *****   Eval results  *****
+06/27/2023 04:39:09 - INFO - trainer -    loss = 36.257796112996225
+06/27/2023 04:39:09 - INFO - trainer -    slot_f1 = 0.8319410627187248
+06/27/2023 04:39:09 - INFO - trainer -    slot_precision = 0.8274839001066837
+06/27/2023 04:39:09 - INFO - trainer -    slot_recall = 0.8364465015231304
+06/27/2023 05:05:23 - INFO - trainer - *** Training Result ***
+06/27/2023 05:05:23 - INFO - trainer -    Step = 1325
+06/27/2023 05:05:23 - INFO - trainer -    Loss = 119691
+06/27/2023 05:05:23 - INFO - trainer -    Num eval examples = 16953
+06/27/2023 05:05:23 - INFO - trainer -    Batch size = 32
+06/27/2023 05:10:04 - INFO - trainer - *****   Eval results  *****
+06/27/2023 05:10:04 - INFO - trainer -    loss = 35.18073461280679
+06/27/2023 05:10:04 - INFO - trainer -    slot_f1 = 0.8336405295514935
+06/27/2023 05:10:04 - INFO - trainer -    slot_precision = 0.8289207446146184
+06/27/2023 05:10:04 - INFO - trainer -    slot_recall = 0.8384143701639628
+06/27/2023 05:10:08 - INFO - trainer - Saving model checkpoint to bert_crf_label_ltn_news
+06/27/2023 05:36:23 - INFO - trainer - *** Training Result ***
+06/27/2023 05:36:23 - INFO - trainer -    Step = 1325
+06/27/2023 05:36:23 - INFO - trainer -    Loss = 119907
+06/27/2023 05:36:23 - INFO - trainer -    Num eval examples = 16953
+06/27/2023 05:36:23 - INFO - trainer -    Batch size = 32
+06/27/2023 05:41:04 - INFO - trainer - *****   Eval results  *****
+06/27/2023 05:41:04 - INFO - trainer -    loss = 37.15597596078549
+06/27/2023 05:41:04 - INFO - trainer -    slot_f1 = 0.8336067568310086
+06/27/2023 05:41:04 - INFO - trainer -    slot_precision = 0.8312838054683648
+06/27/2023 05:41:04 - INFO - trainer -    slot_recall = 0.8359427271510772
+06/27/2023 06:07:16 - INFO - trainer - *** Training Result ***
+06/27/2023 06:07:16 - INFO - trainer -    Step = 1325
+06/27/2023 06:07:16 - INFO - trainer -    Loss = 120113
+06/27/2023 06:07:16 - INFO - trainer -    Num eval examples = 16953
+06/27/2023 06:07:16 - INFO - trainer -    Batch size = 32
+06/27/2023 06:11:57 - INFO - trainer - *****   Eval results  *****
+06/27/2023 06:11:57 - INFO - trainer -    loss = 38.6262924806127
+06/27/2023 06:11:57 - INFO - trainer -    slot_f1 = 0.8329498715665725
+06/27/2023 06:11:57 - INFO - trainer -    slot_precision = 0.8337842207797329
+06/27/2023 06:11:57 - INFO - trainer -    slot_recall = 0.8321171905132989
+06/27/2023 06:38:11 - INFO - trainer - *** Training Result ***
+06/27/2023 06:38:11 - INFO - trainer -    Step = 1325
+06/27/2023 06:38:11 - INFO - trainer -    Loss = 120302
+06/27/2023 06:38:11 - INFO - trainer -    Num eval examples = 16953
+06/27/2023 06:38:11 - INFO - trainer -    Batch size = 32
+06/27/2023 06:42:51 - INFO - trainer - *****   Eval results  *****
+06/27/2023 06:42:51 - INFO - trainer -    loss = 39.74351961747655
+06/27/2023 06:42:51 - INFO - trainer -    slot_f1 = 0.833738791148092
+06/27/2023 06:42:51 - INFO - trainer -    slot_precision = 0.8298862945112536
+06/27/2023 06:42:51 - INFO - trainer -    slot_recall = 0.8376272227076298
+06/27/2023 06:42:55 - INFO - trainer - Saving model checkpoint to bert_crf_label_ltn_news
+06/27/2023 07:09:09 - INFO - trainer - *** Training Result ***
+06/27/2023 07:09:09 - INFO - trainer -    Step = 1325
+06/27/2023 07:09:09 - INFO - trainer -    Loss = 120488
+06/27/2023 07:09:09 - INFO - trainer -    Num eval examples = 16953
+06/27/2023 07:09:09 - INFO - trainer -    Batch size = 32
+06/27/2023 07:13:49 - INFO - trainer - *****   Eval results  *****
+06/27/2023 07:13:49 - INFO - trainer -    loss = 40.358937466819334
+06/27/2023 07:13:49 - INFO - trainer -    slot_f1 = 0.8341616541796479
+06/27/2023 07:13:49 - INFO - trainer -    slot_precision = 0.8326927602164875
+06/27/2023 07:13:49 - INFO - trainer -    slot_recall = 0.8356357396431073
+06/27/2023 07:13:53 - INFO - trainer - Saving model checkpoint to bert_crf_label_ltn_news
+06/27/2023 07:40:06 - INFO - trainer - *** Training Result ***
+06/27/2023 07:40:06 - INFO - trainer -    Step = 1325
+06/27/2023 07:40:06 - INFO - trainer -    Loss = 120653
+06/27/2023 07:40:06 - INFO - trainer -    Num eval examples = 16953
+06/27/2023 07:40:06 - INFO - trainer -    Batch size = 32
+06/27/2023 07:44:50 - INFO - trainer - *****   Eval results  *****
+06/27/2023 07:44:50 - INFO - trainer -    loss = 40.943524006177796
+06/27/2023 07:44:50 - INFO - trainer -    slot_f1 = 0.8347503490250827
+06/27/2023 07:44:50 - INFO - trainer -    slot_precision = 0.8317689812824821
+06/27/2023 07:44:50 - INFO - trainer -    slot_recall = 0.8377531663006431
+06/27/2023 07:44:54 - INFO - trainer - Saving model checkpoint to bert_crf_label_ltn_news
+06/27/2023 08:11:07 - INFO - trainer - *** Training Result ***
+06/27/2023 08:11:07 - INFO - trainer -    Step = 1325
+06/27/2023 08:11:07 - INFO - trainer -    Loss = 120803
+06/27/2023 08:11:07 - INFO - trainer -    Num eval examples = 16953
+06/27/2023 08:11:07 - INFO - trainer -    Batch size = 32
+06/27/2023 08:15:48 - INFO - trainer - *****   Eval results  *****
+06/27/2023 08:15:48 - INFO - trainer -    loss = 42.63349701323599
+06/27/2023 08:15:48 - INFO - trainer -    slot_f1 = 0.8343501144612495
+06/27/2023 08:15:48 - INFO - trainer -    slot_precision = 0.8296006349996887
+06/27/2023 08:15:48 - INFO - trainer -    slot_recall = 0.8391542887729159
+06/27/2023 08:42:00 - INFO - trainer - *** Training Result ***
+06/27/2023 08:42:00 - INFO - trainer -    Step = 1325
+06/27/2023 08:42:00 - INFO - trainer -    Loss = 120932
+06/27/2023 08:42:00 - INFO - trainer -    Num eval examples = 16953
+06/27/2023 08:42:00 - INFO - trainer -    Batch size = 32
+06/27/2023 08:46:41 - INFO - trainer - *****   Eval results  *****
+06/27/2023 08:46:41 - INFO - trainer -    loss = 43.54290274853976
+06/27/2023 08:46:41 - INFO - trainer -    slot_f1 = 0.8345367759243497
+06/27/2023 08:46:41 - INFO - trainer -    slot_precision = 0.8316630446678445
+06/27/2023 08:46:41 - INFO - trainer -    slot_recall = 0.8374304358435466
+06/27/2023 09:12:55 - INFO - trainer - *** Training Result ***
+06/27/2023 09:12:55 - INFO - trainer -    Step = 1325
+06/27/2023 09:12:55 - INFO - trainer -    Loss = 121048
+06/27/2023 09:12:55 - INFO - trainer -    Num eval examples = 16953
+06/27/2023 09:12:55 - INFO - trainer -    Batch size = 32
+06/27/2023 09:17:36 - INFO - trainer - *****   Eval results  *****
+06/27/2023 09:17:36 - INFO - trainer -    loss = 44.420092647480516
+06/27/2023 09:17:36 - INFO - trainer -    slot_f1 = 0.8358847878849763
+06/27/2023 09:17:36 - INFO - trainer -    slot_precision = 0.834102755026061
+06/27/2023 09:17:36 - INFO - trainer -    slot_recall = 0.8376744515550097
+06/27/2023 09:17:40 - INFO - trainer - Saving model checkpoint to bert_crf_label_ltn_news
+06/27/2023 09:43:53 - INFO - trainer - *** Training Result ***
+06/27/2023 09:43:53 - INFO - trainer -    Step = 1325
+06/27/2023 09:43:53 - INFO - trainer -    Loss = 121176
+06/27/2023 09:43:53 - INFO - trainer -    Num eval examples = 16953
+06/27/2023 09:43:53 - INFO - trainer -    Batch size = 32
+06/27/2023 09:48:35 - INFO - trainer - *****   Eval results  *****
+06/27/2023 09:48:35 - INFO - trainer -    loss = 44.21105834852975
+06/27/2023 09:48:35 - INFO - trainer -    slot_f1 = 0.8355448268294786
+06/27/2023 09:48:35 - INFO - trainer -    slot_precision = 0.8319585456645414
+06/27/2023 09:48:35 - INFO - trainer -    slot_recall = 0.8391621602474791
+06/27/2023 10:14:49 - INFO - trainer - *** Training Result ***
+06/27/2023 10:14:49 - INFO - trainer -    Step = 1325
+06/27/2023 10:14:49 - INFO - trainer -    Loss = 121270
+06/27/2023 10:14:49 - INFO - trainer -    Num eval examples = 16953
+06/27/2023 10:14:49 - INFO - trainer -    Batch size = 32
+06/27/2023 10:19:30 - INFO - trainer - *****   Eval results  *****
+06/27/2023 10:19:30 - INFO - trainer -    loss = 44.751146919322466
+06/27/2023 10:19:30 - INFO - trainer -    slot_f1 = 0.8359880244226342
+06/27/2023 10:19:30 - INFO - trainer -    slot_precision = 0.8345583909254218
+06/27/2023 10:19:30 - INFO - trainer -    slot_recall = 0.8374225643689832
+06/27/2023 10:19:34 - INFO - trainer - Saving model checkpoint to bert_crf_label_ltn_news
+06/27/2023 10:45:48 - INFO - trainer - *** Training Result ***
+06/27/2023 10:45:48 - INFO - trainer -    Step = 1325
+06/27/2023 10:45:48 - INFO - trainer -    Loss = 121352
+06/27/2023 10:45:48 - INFO - trainer -    Num eval examples = 16953
+06/27/2023 10:45:48 - INFO - trainer -    Batch size = 32
+06/27/2023 10:50:30 - INFO - trainer - *****   Eval results  *****
+06/27/2023 10:50:30 - INFO - trainer -    loss = 45.23772517150303
+06/27/2023 10:50:30 - INFO - trainer -    slot_f1 = 0.8358650567234228
+06/27/2023 10:50:30 - INFO - trainer -    slot_precision = 0.8334089770877676
+06/27/2023 10:50:30 - INFO - trainer -    slot_recall = 0.8383356554183296
+06/27/2023 11:16:43 - INFO - trainer - *** Training Result ***
+06/27/2023 11:16:43 - INFO - trainer -    Step = 1325
+06/27/2023 11:16:43 - INFO - trainer -    Loss = 121430
+06/27/2023 11:16:43 - INFO - trainer -    Num eval examples = 16953
+06/27/2023 11:16:43 - INFO - trainer -    Batch size = 32
+06/27/2023 11:21:24 - INFO - trainer - *****   Eval results  *****
+06/27/2023 11:21:24 - INFO - trainer -    loss = 45.31923974235103
+06/27/2023 11:21:24 - INFO - trainer -    slot_f1 = 0.8360451348320773
+06/27/2023 11:21:24 - INFO - trainer -    slot_precision = 0.8328581360288086
+06/27/2023 11:21:24 - INFO - trainer -    slot_recall = 0.8392566179422392
+06/27/2023 11:21:28 - INFO - trainer - Saving model checkpoint to bert_crf_label_ltn_news
+06/27/2023 11:22:26 - INFO - trainer - *****  Config  loaded  *****
+06/27/2023 11:22:28 - INFO - trainer - *****  Model  loaded  *****
+06/27/2023 11:22:28 - INFO - trainer -    Num eval examples = 25434
+06/27/2023 11:22:28 - INFO - trainer -    Batch size = 32
+06/27/2023 11:29:31 - INFO - trainer - *****   Eval results  *****
+06/27/2023 11:29:31 - INFO - trainer -    loss = 43.6658275856162
+06/27/2023 11:29:31 - INFO - trainer -    slot_f1 = 0.8389447455733173
+06/27/2023 11:29:31 - INFO - trainer -    slot_precision = 0.8359542379499952
+06/27/2023 11:29:31 - INFO - trainer -    slot_recall = 0.8419567262464722

@@ -1,6 +1,12 @@
 __pycache__/
 bert_crf*/
-data/
+train/
+dev/
+test/
+*.ndjson.gz
+*.json
+*.txt
+cached_*
 gpt35_filtered-bert-base-chinese/
 mlruns/
 preds/
